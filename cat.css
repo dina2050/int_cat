@@ -1,0 +1,96 @@
+body {
+    text-align: center;
+}
+.fas {
+    display: none;
+}
+header {
+    background-color: #313b34;
+}
+ .green img {
+    border-radius: 50%;
+}
+.green {
+    background-color: #099132;
+}
+.white {
+    color: white;
+    padding: 1em;
+}
+
+footer {
+    background-color: black;
+}
+header h1, nav,ul,li {
+    display: inline-block;
+}
+.padding {
+    padding: 2em;
+}
+.margin {
+    margin: 2em auto;
+}
+
+.center {
+    max-width: 1140px;
+    margin:auto;
+}
+figure {
+    /* width: 50%; */
+    margin: auto;
+}
+.para {
+    width: 27%;
+    display: inline-block;
+    text-align: initial;
+}
+ #tel, #email {
+ 
+}
+.end {
+    display: inline-block;
+    width: 25%;
+}
+textarea {
+   
+}
+input,textarea {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+    ul {
+        display: none;
+    }
+    .fas {
+        display: initial;
+        padding-left: 8em;
+    }
+    .para {
+        width: 100%;
+    }
+    .end {
+        width: 100%;
+    }
+    .end .fas {
+        padding: 0;
+    }
+}
+@media screen and (min-width:760px) and (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+    .fas {
+        display: initial;
+        padding-left: 31em;
+    }
+    .para {
+        width: 100%;
+    }
+    .end {
+        width: 100%;
+    }
+    .end .fas {
+        padding: 0;
+    }
+}
